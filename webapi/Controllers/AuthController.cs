@@ -16,7 +16,7 @@ namespace webapi.Controllers
         private readonly IConfiguration _configuration;
         static List<User> users = new List<User>()
         {
-            new User(){ UserName = "prakash@gmail.com", FullName = "prakash", Password = "123", UserId = 1}
+            new User(){ UserName = "prakash@gmail.com", FullName = "prakashmandati", Password = "123", UserId = 1}
             ,new User(){ UserName = "admin@gmail.com", FullName = "Xyz", Password = "1234", UserId = 2}
         };
         public AuthController(IConfiguration configuration)
